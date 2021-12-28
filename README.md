@@ -1,6 +1,6 @@
 # AI
 + Regression (회귀)
-  + [Regression (회귀)]() 
+  + [Regression (회귀)](https://github.com/jysaa5/LILAC_AI/tree/main/Regression) 
   + [Simple Linear Regression (단순 선형 회귀)]()
 
 <br/>
