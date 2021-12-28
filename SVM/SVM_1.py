@@ -1,5 +1,6 @@
+# <선형 SVM 분류>
 # 붓꽃 데이터셋을 적재하고 특성 스케일을 변경하고 Iris-Virginica 품종을 감지하기 위해 선형 SVM 모델을 훈련시킨다.
-# C=1, 힌지 손시(hinge loss)함수를 적용한 LinearSVC클래스를 사용한다.
+# C=1, 힌지 손실(hinge loss)함수를 적용한 LinearSVC클래스를 사용한다.
 
 import numpy as np
 from sklearn import datasets
@@ -19,5 +20,5 @@ svm_clf = Pipeline([("scaler", StandardScaler()), ("linear_svc", LinearSVC(C=1, 
 # y: 0.0 과 1.0으로 분류함.
 svm_clf.fit(x, y)
 
-
-
+# 예측
+print(svm_clf.predict([[5.5, 1.7]]))
