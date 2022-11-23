@@ -1,3 +1,6 @@
+# Library
++ [Label Studio](https://labelstud.io/)
+
 # AI
 + [Regression (회귀)](https://github.com/jysaa5/LILAC_AI/tree/main/Regression)
   + [Regression (회귀)](https://github.com/jysaa5/LILAC_AI/blob/main/Regression/Regression.py)
